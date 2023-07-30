@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<div class="text-3xl font-bold underline">
+    <h1>This is the Page from the slot tag</h1>
+    <h1>Maan</h1>
+</div>
+
+<style lang="postcss">
+    :global(html) {
+      background-color: theme(colors.gray.300);
+    }
+  </style>
