@@ -1,10 +1,8 @@
 <script>
-    import "../app.css"
-	import Header from "../components/Header.svelte";
+    import "../app.css";
     
 </script>
-<div class="container mx-auto">
-    <Header />
+<div class="">
     <div>
         <slot />    
     </div>
