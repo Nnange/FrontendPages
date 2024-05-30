@@ -8,7 +8,8 @@ import Header from "../components/Header.svelte";
 <div class="text-3xl font-bold underline">
     <h1>This is the Page from the slot tag</h1>
     <h1>Maan</h1>
-</div>
+  </div>
+  <a href="/ableton">Ableton</a>
 
 <style lang="postcss">
     :global(html) {
